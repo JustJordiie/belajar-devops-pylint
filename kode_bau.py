@@ -1,16 +1,14 @@
-import os, sys, math
+"""Modul demonstrasi fungsi yang telah diperbaiki."""
 
-x = 10
+def fungsi_bagus(nilai_a, nilai_b):
+    """Menjumlahkan dua nilai.
+    Args:
+        nilai_a: Angka pertama.
+        nilai_b: Angka kedua.
+    Returns:
+        Hasil penjumlahan.
+    """
+    return nilai_a + nilai_b
 
-def Bad_Function_Name( A, B, C, D, E, F ):
- global x
- l = 1; O = 0
- if A == True:
-  if B == False:
-   if C == None:
-    try: print(eval("A + B")); res = E[0] + F + l + O
-    except: pass
- else: return None
-
-Bad_Function_Name(True, False, None, 1, [2], 3)
-
+if __name__ == "__main__":
+    fungsi_bagus(1, 2)
